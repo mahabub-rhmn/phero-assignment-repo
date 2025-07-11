@@ -191,6 +191,38 @@ main img{
     background-color: rgb(11, 76, 55);
 }
 
-.img{
+/* Footer */
+
+.footer-container{
     
+    margin: 0px 440px;
+
 }
+
+.footer-title{
+    color: blue;
+    text-align: center;
+    font-size: 70px;
+    padding: 0px;
+}
+
+.footer-description{
+    text-align: center;
+    font-size: 14px;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+.track-list{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px;
+    
