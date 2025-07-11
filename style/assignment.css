@@ -99,6 +99,11 @@ nav button a{
     padding: 4px;
 }
 
+.action-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 .wc-mini{
     border-radius: 15px;
 }
@@ -190,6 +195,32 @@ main img{
 .welcome-btn:hover{
     background-color: rgb(11, 76, 55);
 }
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 350px;
+}
+
+.form-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.form-btn{
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+
+.form-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Footer */
 
