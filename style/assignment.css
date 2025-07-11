@@ -9,7 +9,7 @@
 }
 
 .body{
-    background-color: rgba(250, 235, 215, 0.463);
+    background-color: rgba(250, 235, 215, 0.34);
 }
 
 .header{
@@ -209,6 +209,7 @@ main img{
 .footer-description{
     text-align: center;
     font-size: 14px;
+    color: #8987A1;
 }
 
 footer ul li{
@@ -218,11 +219,12 @@ footer ul li{
 
 footer ul li a{
     text-decoration: none;
+    color: #8987A1;
 }
 
 .track-list{
     
     display: flex;
     justify-content: space-around;
-    margin: 0 400px;
+    margin: 0 450px;
     
