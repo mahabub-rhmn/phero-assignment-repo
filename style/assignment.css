@@ -1,4 +1,6 @@
 
+/* Font: Open Sans */
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -12,10 +14,14 @@
     background-color: rgba(250, 235, 215, 0.34);
 }
 
+/* Header */
+
 .header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
 }
+
+/* Nav */
 
 nav{
     display: flex;
@@ -77,6 +83,8 @@ nav button a{
     color: white;
 }
 
+/* Hero Card */
+
 .action{
     display: flex;
     justify-content: space-between;
@@ -108,14 +116,13 @@ nav button a{
     border-radius: 15px;
 }
 
+/* Achievement Banner */
+
 .productive ul li{
     list-style: none;
     font-size: 70px;
 }
 
-/* .productive div, p{
-    display: flex;
-} */
 
 .achievement-list{
     display: flex;
@@ -147,7 +154,7 @@ nav button a{
 
 .user-data{
     padding: 10px;
-    margin: 80px;
+    margin: 130px;
 }
 
 .user-data-title{
@@ -161,17 +168,19 @@ nav button a{
     justify-content: space-around;
     align-items: center;
     margin: 0 230px;
-    padding: 10px;
+    padding: 20px;
 }
 
 main img{
     border-radius: 40px;
 }
 
+/* Invitation */
+
 .invite-card{
     text-align: center;
     align-items: center;
-    margin: 70px;
+    margin: 100px;
 }
 
 .invite-title{
@@ -196,23 +205,42 @@ main img{
     background-color: rgb(11, 76, 55);
 }
 
+/* Form */
+
 .form-container{
     display: flex;
     justify-content: space-between;
-    margin: 20px 350px;
+    align-items: center;
+    margin: 20px 300px;
 }
 
 .form-title{
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
 }
 
+.form-content{
+    background-color: aliceblue;
+    margin: 80px;
+
+}
+
+.input1{
+    padding: 20px;
+}
+.input2{
+    padding: 20px;
+}
+.input3{
+    padding: 20px;
+}
 
 .form-btn{
     background-color: blue;
     border: none;
     padding: 7px;
     border-radius: 5px;
+    margin: 0px 60px;
     
 }
 
@@ -253,9 +281,11 @@ footer ul li a{
     color: #8987A1;
 }
 
+
+
 .track-list{
     
     display: flex;
     justify-content: space-around;
     margin: 0 450px;
-    
+}
